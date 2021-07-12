@@ -69,7 +69,7 @@ ul li a:visited {
 
 .box2 {
     /* border: 2px solid goldenrod; */
-    height: 650px;
+    height: auto;
     width: 570px;
 }
 
