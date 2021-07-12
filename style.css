@@ -1,0 +1,126 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+}
+
+nav a img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
+
+ul {
+    float: right;
+}
+
+ul li {
+    display: inline;
+    padding: 2px 16px;
+    margin: 2px 2px;
+    font-size: 20px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+ul li a:active {
+    color: black;
+    background-color: white;
+}
+
+ul li a:visited {
+    color: black;
+    background-color: white;
+}
+
+.container {
+    /* margin: 2px 5px; */
+    border: 2x solid yellow;
+    height: auto;
+    width: 1150px;
+    max-width: 100%;
+    display: flex;
+    margin: auto;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+}
+
+.box1 {
+    /* border: 2px solid greenyellow; */
+    height: auto;
+    width: 570px;
+    max-width: 200%;
+}
+
+.box1 img {
+    height: auto;
+    width: 570px;
+    max-width: 200%;
+}
+
+.box2 {
+    /* border: 2px solid goldenrod; */
+    height: 650px;
+    width: 570px;
+}
+
+.box2 p {
+    margin: auto;
+    padding: 6px 55px;
+    font-size: 120%;
+}
+
+.box2 h3 {
+    margin: auto;
+    padding: 6px 55px;
+    font-size: 130%;
+}
+
+.foot p {
+    font-size: 20px;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+
+.foot ul {
+    float: left;
+}
+
+.foot ul li a img {
+    width: 40px;
+    height: 25px;
+    padding: 0px 5px;
+    margin: -4px 2px;
+    border-radius: 2px;
+}
+
+.foot ul li a:hover {
+    background-color: black;
+    color: rgb(201, 201, 201);
+}
+
+.box2 form {
+    margin: auto;
+    padding: 6px 55px;
+    font-size: 120%;
+}
+
+.box2 form input {
+    border-radius: 5px;
+    margin: 20px 6px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.box2 form textarea {
+    border-radius: 5px;
+}
